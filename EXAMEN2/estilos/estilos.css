@@ -1,0 +1,253 @@
+@font-face {
+    font-family: Sedgwick Ave Display;
+    src: url(../fuentes/SedgwickAveDisplay-Regular.ttf);
+    
+}
+@font-face {
+    font-family: Permanent Marker;
+    src: url(../fuentes/PermanentMarker-Regular.ttf);
+    
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-repeat: no-repeat;
+    font-family: Permanent Marker;
+    
+    
+    
+    
+   
+    
+}
+.navbar{
+    
+    
+    margin: auto;
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 80, 123);
+    background-size: cover;
+    position: relative;
+   
+    
+    
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 1.2em;
+    margin: 0 30px;
+    
+    
+}
+#hero-text{
+    color: rgb(5, 91, 166);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    text-indent: 25px;
+    font-family: Sedgwick Ave Display;
+   
+
+    
+
+}
+#hero-text h1{
+
+padding-top: 100px;
+width: 50px;
+padding-left: 80px;    
+font-size:70px;
+
+    
+}
+#hero-text img{
+    width: 500px;
+    
+    
+    
+    
+}
+#texto{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to bottom, rgba(250,249,182,0.3113620448179272) 0%, rgba(244,242,78,0.5466561624649859) 46%, rgba(255,252,0,0.8911939775910365) 100%);
+    
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+   
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 24.2%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  
+  footer{
+    padding-top: 10px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    color: white;
+    padding-top: 80px   ;
+    text-align: center;
+  
+  }
+  .degradado{
+  
+    background-image: linear-gradient(to bottom, #F2CA06 0%, 24.235807359218597%, #F25279 48.471614718437195%, 66.92139655351639%, #055BA6 85.37117838859558%);
+    
+
+  }
+
+
+
+  @media screen and (max-width:1300px){
+
+    .column {
+        -ms-flex: 100%;
+        flex: 50%;
+        max-width: 49%;
+        
+        
+      }
+      #hero-text{
+          display: block;
+          text-align: center;
+          text-indent: 0px;
+          
+          
+          
+      }
+     
+      #hero-text img{
+          width: 450px;
+          
+          
+          
+  
+      }
+      #hero-text h1{
+          width: 450px;
+          font-size: 50px;
+          
+          
+  
+         
+  
+      }
+
+  }
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+
+    .column {
+      -ms-flex: 100%;
+      flex: 50%;
+      max-width: 49%;
+      
+      
+    }
+    #hero-text{
+        display: block;
+        text-align: center;
+        text-indent: 0px;
+        
+        
+        
+    }
+   
+    #hero-text img{
+        width: 450px;
+        
+        
+        
+
+    }
+    #hero-text h1{
+        width: 450px;
+        font-size: 50px;
+        
+        
+
+       
+
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    #hero-text{
+        display: inline;
+        text-indent: 0px;
+        text-align: center;
+        
+    }
+   
+    #hero-text img{
+        width: 250px;
+        
+        
+
+    }
+    #hero-text h1{
+        width: 50px;
+        font-size: 50px;
+       
+
+    }
+    
+  }
+  
+
+
+
+
